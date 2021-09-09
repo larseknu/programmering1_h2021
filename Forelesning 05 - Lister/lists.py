@@ -1,3 +1,7 @@
+# A list can contain different datatypes in Python (which is not the case in many other languages)
+random_list = ["Europe", 7, ["Another list", 2, "With more elements"], "Dog", "Cheese"]
+print(random_list)
+
 # Creates a list containing some of the planets in our solar system
 planets = ['Mercury', 'Venus', 'Earth', 'Jupiter', 'Saturne', 'Uranus']
 
@@ -42,5 +46,24 @@ planets.remove('Mars')
 print(f"\nAfter remove: {planets}")
 print(planets.remove('Pluto'))  # Will print 'None' since remove doesn't return a value
 print(f"After remove: {planets}")
+
+# Temporary sorting of the list with the sorted()-function
+print(f"\nTemp sorted list: {sorted(planets)}")
+print(f"Original list: {planets}")
+
+# Reverse the current order of the list with reverse()-method
+planets.reverse()
+print(f"\nReversed list: {planets}")
+
+# Permanently sort the list with the sort()-method
+planets.sort()
+print(f"\nSorted list: {planets}")
+
+# Reverse the current order of the list with sort()-method and reverse-argument
+planets.sort(reverse=True)
+print(f"\nSorted desc. list: {planets}")
+
+# Getting the number of planets in our list with the len()-function (gets the length of the list)
+print(f"\nThe number of planets in our solar system is {len(planets)}")
 
 
