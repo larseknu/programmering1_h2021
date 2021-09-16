@@ -1,4 +1,4 @@
-top_board_games_2020 = ('Marvel United', 'Lost Ruins of Arnak', 'Dune: Imperium', number)
+top_board_games_2020 = ('Marvel United', 'Lost Ruins of Arnak', 'Dune: Imperium')
 
 print(top_board_games_2020[1])
 
