@@ -1,0 +1,26 @@
+[
+  {
+    "status": "Fridag",
+    "kode": "DAYOFF"
+  },
+  {
+    "status": "Bursdag",
+    "kode": "BIRTHDAY"
+  },
+  {
+    "status": "Hjemmekontor",
+    "kode": "HOMEOFFICE"
+  },
+  {
+    "status": "Forelesning",
+    "kode": "LECTURE"
+  },
+  {
+    "status": "Møte",
+    "kode": "MEETING"
+  },
+  {
+    "status": "Syk",
+    "kode": "SICK"
+  }
+]
